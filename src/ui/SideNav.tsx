@@ -1,4 +1,4 @@
-import { useHref, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 import BoutonCompte from "./BoutonCompte";
 import NavLink from "./NavLink";

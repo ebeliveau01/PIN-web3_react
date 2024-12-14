@@ -14,6 +14,9 @@ export default function Authentification() {
     const [errors, setErrors] = useState({username: "", password: ""});
     const [apiError, setApiError] = useState("");
 
+    setErrors({username: "", password: ""});
+    setApiError("");
+
     async function handleSubmit(e: React.FormEvent) {
         e.preventDefault();
 
