@@ -1,0 +1,86 @@
+{
+    "langue.interface.h1": "Langue Interface",
+    "langue.interface.choix1": "Français",
+    "langue.interface.choix2": "Anglais",
+
+    "sidenav.pages.entete.password": "Mot de Passe",
+    "sidenav.pages.entete.dashboard": "Lien",
+
+    "password.ajout.titre": "Ajout",
+
+    "password.ajout.erreur.titre": "Le titre ne peut pas être vide.",
+    "password.ajout.erreur.url": "L'url n'est pas valide.",
+
+    "confirmation.titre.passwordAjout": "Enregistrement",
+    "confirmation.description.passwordAjout": "Voulez-vous enregistrer ce mot de passe: <span>{titre}</span>. Vous allez perdre vos modification après cette opération.",
+    "confirmation.textBouton1.passwordAjout": "Enregistrer",
+    "confirmation.textBouton2.passwordAjout": "Retour",
+
+    "form.titre.passwordAjout": "Titre",
+    "form.login.passwordAjout": "Courriel",
+    "form.password.passwordAjout": "Mot de Passe",
+    "form.url.passwordAjout": "Address du Site Web",
+    "form.notes.passwordAjout": "Notes",
+    "form.tags.passwordAjout": "Étiquettes",
+    "form.bouton.passwordAjout": "Ajouter",
+
+
+
+    "password.detail.titre": "Détail",
+
+    "confirmation.titre.passwordDetail.suppression": "Suppression",
+    "confirmation.description.passwordDetail.suppression": "Voulez vous vraiment supprimer ce mot de passe: <span>{titre}</span>. Il ne sera plus possible de le récupérer après cette opération.",
+    "confirmation.textBouton1.passwordDetail.suppression": "Supprimer",
+    "confirmation.textBouton2.passwordDetail.suppression": "Retour",
+
+    "form.dateCreation.passwordDetail": "Crée le: ",
+    "form.login.passwordDetail": "Courriel",
+    "form.password.passwordDetail": "Mot de Passe",
+    "form.url.passwordDetail": "Address du Site Web",
+    "form.notes.passwordDetail": "Notes",
+    "form.tags.passwordDetail": "Étiquettes",
+    "form.bouton.passwordDetail": "Ajouter",
+
+
+
+    "password.modifier.titre": "Modification",
+
+    "password.modifier.erreur.titre": "Le titre ne peut pas être vide.",
+    "password.modifier.erreur.url": "L'url n'est pas valide.",
+
+    "confirmation.titre.passwordModifier": "Enregistrement",
+    "confirmation.description.passwordModifier": "Voulez-vous enregistrer ce mot de passe: <span>{titre}</span>. Vous allez perdre vos modification après cette opération.",
+    "confirmation.textBouton1.passwordModifier": "Enregistrer",
+    "confirmation.textBouton2.passwordModifier": "Retour",
+
+    "form.login.passwordModifier": "Courriel",
+    "form.password.passwordModifier": "Mot de Passe",
+    "form.url.passwordModifier": "Address du Site Web",
+    "form.notes.passwordModifier": "Notes",
+    "form.tags.passwordModifier": "Étiquettes",
+    "form.bouton.passwordModifier": "Sauvegarder",
+
+
+
+    "password.page.titre": "Mot de passe",
+    "password.page.option1": "Ajouter",
+    "password.page.option2": "Filtre",
+
+    "auth.email.label": "Courriel / Nom d'utilisateur:",
+    "auth.password.label": "Mot de Passe:",
+    "auth.stay.label": "Rester Connecté:",
+    "auth.submit.label": "Connection",
+
+    "bouton.compte.text": "Déconnection",
+
+    "confirmation.textbouton1.base": "Confirmation",
+    "confirmation.textbouton2.base": "Retour",
+
+
+
+    "confirmation.password.card.titre": "Enregistrement",
+    "confirmation.password.card.description": "Voulez-vous enregistrer ce mot de passe: <span>{titre}</span>. Vous allez perdre vos modification après cette opération.",
+
+    "navlink1.nom": "Tableau de bord",
+    "navlink2.nom": "Mot de passe"
+}

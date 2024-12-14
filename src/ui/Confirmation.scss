@@ -1,0 +1,43 @@
+.confirmation-body {
+    width: 450px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    p {
+        flex-grow: 1;
+        padding: 16px;
+        font-weight: 500;
+        text-align: center;
+        font-size: large;
+    }
+
+    span {
+        color: rgb(154, 154, 154);
+        font-style: italic;
+    }
+
+    .options-confirmation {
+        button {
+            width: 130px;
+            height: 48px;
+            margin: 0px 8px 12px 8px;
+            cursor: pointer;
+            border-radius: 8px;
+            border-width: 0;
+        
+            &:first-child {
+                background-color: rgb(75, 210, 75);
+            }
+
+            &:last-child {
+                background-color: rgb(255, 52, 52);
+            }
+        }
+    }
+}

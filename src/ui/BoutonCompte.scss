@@ -1,0 +1,28 @@
+@use "../variables.scss" as *;
+
+.bouton-compte {
+    height: 48px;
+    width: 100%;
+
+    border-radius: 0.5rem;
+    color: $text-sidenav;
+    background-color: $bg-sidenav;
+
+    font-weight: 700;
+    font-size: medium;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &:hover {
+        color: rgb(67, 67, 184);
+        background-color: lighten($bg-sidenav, 5%);
+        cursor: pointer;
+    }
+
+    img {
+        filter: $text-icon-link;
+        padding-right: 24px;
+    }
+}

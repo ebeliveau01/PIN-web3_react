@@ -1,0 +1,112 @@
+@use "../variables.scss" as *;
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: $auth-bg-color;
+
+    .form-login {
+        background-color: $auth-form-bg-color;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 200px;
+        padding: 20px;
+        box-sizing: border-box;
+
+        .input-group {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            label {                
+                font-size: 16px;
+                margin-bottom: 5px;
+                color: #333;
+
+                .requis {
+                    margin-left: 5px;
+                    color: red;
+                }
+            }
+
+            .form-input {
+                padding: 10px;
+                font-size: 16px;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                outline-width: 1px;
+                outline: 2px outset $auth-bg-color;
+                margin-top: 5px;
+                margin-bottom: 10px;
+
+                &.error {
+                    border-color: $form-error-text-color;
+                    background-color: $form-error-input-color;
+                    outline: 2px outset $form-error-outline-color;
+                }
+            }
+
+            .error-message {
+                color: $form-error-text-color;
+                font-size: 12px;
+                margin-top: -10px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .stay-login {
+            margin-bottom: 15px;
+            text-align: center;
+
+            input[type="checkbox"] {
+                margin-left: 10px;
+            }
+        }
+
+        .submit-button {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+
+            button {
+                background-color: $auth-button-bg-color;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                width: 85%;
+
+                &:hover {
+                    background-color: $auth-button-bg-color-darken;
+                }
+
+                &:active {
+                    background-color: $auth-button-bg-color-actif;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .auth-container {
+        .form-login {
+            max-width: 300px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .auth-container {
+        .form-login {
+            max-width: 450px;
+        }
+    }
+}

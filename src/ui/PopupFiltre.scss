@@ -1,0 +1,20 @@
+.popup-filtre {
+    background-color: white;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    padding: 8px;
+    border: 1px solid #e5e7eb;
+
+    .tag-popup {
+        padding: 8px 4px;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: #e5e7eb;
+        }
+        
+        input, label {
+            cursor: pointer;
+        }
+    }
+}

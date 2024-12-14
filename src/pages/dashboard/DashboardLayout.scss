@@ -1,0 +1,10 @@
+@use "@/variables.scss" as *;
+
+#root {
+    display: flex;
+}
+
+body {
+    background: $bg-general;
+    color: $text-general;
+}

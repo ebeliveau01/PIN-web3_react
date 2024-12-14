@@ -1,0 +1,48 @@
+.dashboard-main-contenu {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .dashboard-main-body {
+        width: 500px;
+        height: auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+        background-color: #ffffff;
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .profile-card {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            label {
+                display: flex;
+                flex-direction: column;
+                font-size: 1rem;
+
+                select {
+                    margin-top: 5px;
+                    padding: 5px;
+                    font-size: 1rem;
+                }
+            }
+
+            .user-info {
+                p {
+                    margin: 5px 0;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

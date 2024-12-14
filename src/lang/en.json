@@ -1,0 +1,78 @@
+{
+    "langue.interface.h1": "Interface Language",
+    "langue.interface.choix1": "French",
+    "langue.interface.choix2": "English",
+
+    "sidenav.pages.entete.password": "Password",
+    "sidenav.pages.entete.dashboard": "Link",
+
+    "password.ajout.titre": "Add",
+
+    "password.ajout.erreur.titre": "The title cannot be empty.",
+    "password.ajout.erreur.url": "The URL is not valid.",
+
+    "confirmation.titre.passwordAjout": "Save",
+    "confirmation.description.passwordAjout": "Do you want to save this password: <span>{titre}</span>? You will lose your changes after this operation.",
+    "confirmation.textBouton1.passwordAjout": "Save",
+    "confirmation.textBouton2.passwordAjout": "Back",
+
+    "form.titre.passwordAjout": "Title",
+    "form.login.passwordAjout": "Email",
+    "form.password.passwordAjout": "Password",
+    "form.url.passwordAjout": "Website Address",
+    "form.notes.passwordAjout": "Notes",
+    "form.tags.passwordAjout": "Tags",
+    "form.bouton.passwordAjout": "Add",
+
+    "password.detail.titre": "Detail",
+
+    "confirmation.titre.passwordDetail.suppression": "Delete",
+    "confirmation.description.passwordDetail.suppression": "Are you sure you want to delete this password: <span>{titre}</span>? It will no longer be recoverable after this operation.",
+    "confirmation.textBouton1.passwordDetail.suppression": "Delete",
+    "confirmation.textBouton2.passwordDetail.suppression": "Back",
+
+    "form.dateCreation.passwordDetail": "Created on: ",
+    "form.login.passwordDetail": "Email",
+    "form.password.passwordDetail": "Password",
+    "form.url.passwordDetail": "Website Address",
+    "form.notes.passwordDetail": "Notes",
+    "form.tags.passwordDetail": "Tags",
+    "form.bouton.passwordDetail": "Add",
+
+    "password.modifier.titre": "Edit",
+
+    "password.modifier.erreur.titre": "The title cannot be empty.",
+    "password.modifier.erreur.url": "The URL is not valid.",
+
+    "confirmation.titre.passwordModifier": "Save",
+    "confirmation.description.passwordModifier": "Do you want to save this password: <span>{titre}</span>? You will lose your changes after this operation.",
+    "confirmation.textBouton1.passwordModifier": "Save",
+    "confirmation.textBouton2.passwordModifier": "Back",
+
+    "form.login.passwordModifier": "Email",
+    "form.password.passwordModifier": "Password",
+    "form.url.passwordModifier": "Website Address",
+    "form.notes.passwordModifier": "Notes",
+    "form.tags.passwordModifier": "Tags",
+    "form.bouton.passwordModifier": "Save",
+
+    "password.page.titre": "Password",
+    "password.page.option1": "Add",
+    "password.page.option2": "Filter",
+
+    "auth.email.label": "Email / Username:",
+    "auth.password.label": "Password:",
+    "auth.stay.label": "Stay Connected:",
+    "auth.submit.label": "Login",
+
+    "bouton.compte.text": "Logout",
+
+    "confirmation.textbouton1.base": "Confirmation",
+    "confirmation.textbouton2.base": "Back",
+
+    "confirmation.password.card.titre": "Save",
+    "confirmation.password.card.description": "Do you want to save this password: <span>{titre}</span>? You will lose your changes after this operation.",
+
+    "navlink1.nom": "Dashboard",
+    "navlink2.nom": "Password"
+}

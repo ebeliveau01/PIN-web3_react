@@ -1,0 +1,16 @@
+.contenu {
+    width: 85vw;
+    max-height: 100vh;
+
+    
+    position: relative;
+    
+    .dashboard {
+        max-height: calc(100vh - 16px);
+        height: calc(100vh - 16px);
+        margin: 16px 16px 0 16px;
+        
+        display: flex;
+        flex-direction: column;
+    }
+}
